@@ -1,0 +1,47 @@
+body {
+    background: linear-gradient(
+        90deg,
+        rgba(106, 106, 215, 1) 10%,
+        rgba(255, 255, 255, 1) 50%,
+        rgba(113, 231, 255, 1) 100%
+    );
+}
+
+.sortButton {
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px 400px 10px 350px;
+}
+
+/* CSS */
+.button-1 {
+    background-color: #ea4c89;
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Haas Grot Text R Web', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    outline: none;
+    padding: 10px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.button-1:hover,
+.button-1:focus {
+    background-color: #f082ac;
+}
